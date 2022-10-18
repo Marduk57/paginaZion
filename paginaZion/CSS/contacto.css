@@ -1,0 +1,112 @@
+body {
+background-image: url(../IMG/fondoGris.ico);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.contacto {
+    font-family:'Pirata One', cursive;
+    font-style: normal;
+    font-size: 70px;
+    font: weight 100px;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+}
+
+/*Id*/
+#seccion-contacto {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 50vw;
+    padding: 20px 0;
+
+}
+
+#form-registro {
+    display:inline-flex;
+    flex-direction: column;
+    flex-flow: column;
+    align-items: flex-start;
+    background-color: gray;
+
+    padding: 30px;
+    border-radius: 40px;
+}
+
+/*Clases*/
+.subtitle {
+    padding: 15px 0 30px;
+    color: black;
+}
+
+.section {
+    padding: 0 60px;
+}
+
+.link {
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: 10px;
+    border: solid 4px;
+    border-radius: 10px;
+}
+
+.link {
+    display: block;
+    position: relative;
+    margin: 20px auto 0;
+    width: 70px;
+}
+
+.form-group {
+    padding: 10px 0px;
+
+}
+
+.input {
+    padding: 8px 15px;
+    border: 2px solid  black;
+    border-radius: 5px;
+}
+
+/*Por atributo*/
+input [type="text"] {
+    font-size: 20px;
+}
+
+
+/*Pseudo-Selectores*/
+
+
+/*Pseudo-Clases
+#seccion-contacto .section:first-child {
+    max-width: 450px;
+}
+
+.form-group:last-child {
+    width: 100%;
+}*/
+
+.link:hover {
+    color: blue;
+    background-color: white;
+}
+
+.input:focus {
+    color: blue;
+    outline-color: azure;
+}
+
+/*Pseudo-Elementos*/
+/*  .link::after {}
+  
+  .link::before {}*/

@@ -1,0 +1,14 @@
+body {
+    background-image: url(camuflajeMilitar.jpg);
+    padding: 50px 100px;
+    margin: 50px;
+    border: 30px solid black;
+}
+img{
+    width: 400 px;
+}
+.militares {
+    text-align: center;
+    color: cyan;
+    font-family: 'Times New Roman', Times, serif;
+}
