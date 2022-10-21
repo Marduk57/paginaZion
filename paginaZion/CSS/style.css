@@ -1,57 +1,56 @@
 * {
-    font-family: 'Pirata One', cursive;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-image: url(../IMG/fondoGris.ico);
-
+    background-color: white;
+    font-family: 'Pirata One', cursive;
 }
 
 header {
-    background-color: indigo; 
-    justify-content: space-between;   
+    background-color: indigo;
+    height: 250px;
+    overflow: hidden;
+    justify-content: space-between;
+
 }
 
-.titulo {
+.logo {
+    line-height: 200px;
+    float: left;
+}
 
-    font-size: 30px;
-    font-style: normal;
-    color: darkgray;
-    text-align: left;
+header nav {
+    
+    float: right;
+    line-height: 260px;
+    
 }
 
 ul {
-    text-align: right;
+   
     list-style: none;
     font-size: 30px;
-    
 }
 
 li {
-    text-align: center;
+    text-align: right;
     width: 150px;
     /*Sirve para separar los link de las paginas*/
-    display: inline-flex;
-
+    display: inline-block;
 }
 
 a {
-    text-align: center;
+    
     text-decoration: none;
     color: black;
-
 }
 
 a:hover {
-    
-    color:greenyellow ;
 
-}
+    color: greenyellow;
 
-h2 {
-    font-size: 40px;
-    text-align: left;
 }
 
