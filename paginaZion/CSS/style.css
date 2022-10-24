@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: indigo;
+    background-color: rgb(71, 31, 100);
     height: 250px;
     overflow: hidden;
     justify-content: space-between;
@@ -23,14 +23,14 @@ header {
 }
 
 header nav {
-    
+
     float: right;
     line-height: 260px;
-    
+
 }
 
 ul {
-   
+
     list-style: none;
     font-size: 30px;
 }
@@ -43,14 +43,23 @@ li {
 }
 
 a {
-    
     text-decoration: none;
     color: black;
 }
 
 a:hover {
-
     color: greenyellow;
+}
 
+.carousel-item {
+    display: inline-block;
+    list-style: none;
+    border: 5px solid greenyellow;
+    overflow: auto;
+    object-fit: contain;
+}
+
+h3{
+    text-align: center;
 }
 
